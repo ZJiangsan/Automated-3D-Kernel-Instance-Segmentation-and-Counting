@@ -65,7 +65,7 @@ This creates the required `transforms.json` and `images/` folder.
 After data preparation, each cob folder should look like:
 
 ```
-cob_data/
+cob_new/
 ├── cob1_out/
 │   ├── images/           # extracted frames
 │   └── transforms.json   # camera poses
@@ -81,7 +81,7 @@ cob_data/
 Manually annotate kernel surfaces in a small number of representative images (we used 3 images across all cobs) using [anylabeling](https://github.com/vietanhdev/anylabeling)). Save annotations as JSON files.
 
 ```
-kernel_annotation_new/
+kernel_annotation/
 ├── images/
 │   ├── frame_00026.png
 │   ├── frame_00216.png
